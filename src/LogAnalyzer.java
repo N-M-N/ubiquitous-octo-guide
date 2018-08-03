@@ -24,7 +24,6 @@ public class LogAnalyzer {
 		LogA.countUniqueIPsInRange(200,299);
 		LogA.mostNumberVisitsByIP(LogA.countVisitsPerIP()); 
 		LogA.iPsMostVisits(LogA.countVisitsPerIP());
-		LogA.iPsForDays();
 	}
 	//private variable records 
     private ArrayList<LogEntry> records;
